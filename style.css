@@ -1,0 +1,72 @@
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 15px;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+	background-image: url("images/bgimg.jpg"); 
+	background-color: #cccccc;
+}
+
+form
+{	
+	width: 340px;
+	height: 440px;
+	background: #e6e6e6;
+	border-radius: 8px;
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+
+checkbox{
+    text-align: center;
+	color: red; }
+h2
+{
+	margin:10px 0;
+	padding-bottom:10px;
+	width:180px;
+	color:#78788c;
+	border-bottom:3px solid #78788c;
+}
+
+input
+{
+	font-size: 18px;
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	background:none;
+	outline:none;
+	resize:none;
+	border:0;
+	border-bottom:2px solid #bebed2;
+}
+
+button
+{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+}
+
+button:hover
+{
+	background:blue;
+	color:#fff;
+}
